@@ -33,7 +33,7 @@ export const App = () => {
     } else {
       setContacts([finalContacts, ...contacts]);
       //setContacts(prevState =>
-      //  [...prevState, finalContacts],
+      //  [...prevState, finalContacts]);
     }
   };
 
